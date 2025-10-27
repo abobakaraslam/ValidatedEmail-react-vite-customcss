@@ -23,7 +23,7 @@ function App() {
     
     let regEmail_get = InputData.regEmail;
     regEmail_get = sanitizeInput(regEmail_get);//sanitization
-    if(regEmailTest(regEmail_get) === 0) setErrorEmailState("Please enter email in valid email-format")//email formate checking
+    if(regEmailTest(regEmail_get) === 0) setErrorEmailState("Please enter Email in valid Email-format")//email formate checking
     console.log("Email entered by User: ",regEmail_get);
   }
   
